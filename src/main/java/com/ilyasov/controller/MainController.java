@@ -60,7 +60,7 @@ public class MainController {
      * @return index page
      */
     @RequestMapping(value = "/")
-    public String getStartPage(Model model) throws IOException {
+    public String getIndexPage(Model model) throws IOException {
         model.addAttribute("cities", cities);
         return "index";
     }

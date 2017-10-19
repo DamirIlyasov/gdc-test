@@ -67,7 +67,7 @@ public class MainController {
 
 
     /**
-     * <p>Gets current weather by city id</p>
+     * <p>Get current weather by city id</p>
      *
      * @param cityIdString - ID city id with spaces
      * @return temperature in Celsius, two decimal places

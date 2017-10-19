@@ -52,7 +52,7 @@ public class OpenWeatherMapServiceImpl implements OpenWeatherMapService {
     }
 
     /**
-     * <p>Gets current weather from api by city id</p>
+     * <p>Get current weather from api by city id</p>
      *
      * @param cityId - ID city id with spaces
      * @return WeatherDto
